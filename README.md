@@ -7,7 +7,7 @@
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/pytorch-2.0+-ee4c2c.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Accuracy](https://img.shields.io/badge/accuracy-78.40%25-brightgreen.svg)
+![Accuracy](https://img.shields.io/badge/accuracy-78.25%25-brightgreen.svg)
 
 **學生**：李泓斌
 **學號**：C111110141
@@ -32,6 +32,22 @@
 
 ![訓練曲線](training_curves.png)
 
+## 預訓練模型
+
+### 下載模型檔案
+
+**[從 Google Drive 下載預訓練模型](https://drive.google.com/file/d/1XZykFMfugoMCJKgaisC_4wnW5lV82-ZF/view?usp=sharing)** (42.24 MB)
+
+下載後請將 `cifar100_final_model.pth` 放置於 `checkpoints/` 目錄。
+
+### 在 Colab 中自動下載
+```python
+# 安裝 gdown
+!pip install gdown
+
+# 下載模型
+!gdown --id 1XZykFMfugoMCJKgaisC_4wnW5lV82-ZF -O checkpoints/cifar100_final_model.pth
+
 ### 最終指標
 | 指標 | 數值 |
 |------|------|
@@ -49,18 +65,15 @@
 
 ```python
 # 複製儲存庫
-!git clone https://github.com/yourusername/cifar100-cnn-training.git
+!git clone https://github.com/yuchen-0321/cifar100-cnn-training.git
 %cd cifar100-cnn-training
-
-# 使用預設設定執行訓練
-!python train.py
 ```
 
 ### 本地環境
 
 ```bash
 # 複製儲存庫
-git clone https://github.com/yourusername/cifar100-cnn-training.git
+git clone https://github.com/yuchen-0321/cifar100-cnn-training.git
 cd cifar100-cnn-training
 
 # 安裝依賴套件
