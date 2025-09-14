@@ -3,3 +3,4 @@ torchvision>=0.15.0
 numpy>=1.21.0
 matplotlib>=3.5.0
 tqdm>=4.65.0
+gdown>=4.7.0  # 用於從 Google Drive 下載模型
