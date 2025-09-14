@@ -5,7 +5,7 @@
 ## 計算智慧期末專案
 
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
-![PyTorch](https://img.shields.io/badge/pytorch-2.0+-ee4c2c.svg)
+![PyTorch](https://img.shields.io/badge/pytorch-2.0-ee4c2c.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Accuracy](https://img.shields.io/badge/accuracy-78.25%25-brightgreen.svg)
 
@@ -354,7 +354,7 @@ with torch.no_grad():
 
 ### 軟體
 - Python 3.8+
-- PyTorch 2.0+
+- PyTorch 2.0
 - CUDA 11.8+（用於 GPU 加速）
 
 ## 授權
