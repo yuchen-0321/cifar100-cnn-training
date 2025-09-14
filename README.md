@@ -94,28 +94,15 @@ python train.py --epochs 150 --batch-size 256 --lr 0.1
 
 ```
 cifar100-cnn-training/
-├── train.py                 # 主訓練腳本
-├── models/
-│   ├── __init__.py
-│   └── resnet.py           # 模型架構
-├── data/
-│   ├── __init__.py
-│   └── dataloader.py       # 資料管線和增強
-├── trainers/
-│   ├── __init__.py
-│   └── trainer.py          # 訓練協調器
-├── utils/
-│   ├── __init__.py
-│   ├── metrics.py          # 指標追蹤和視覺化
-│   ├── monitor.py          # 效能監控
-│   └── config.py           # 配置管理
-├── configs/
-│   ├── default.yaml        # 預設配置
-│   └── experiments/        # 實驗配置
-├── checkpoints/            # 模型檢查點（自動建立）
-├── logs/                   # 訓練日誌（自動建立）
-├── requirements.txt        # Python 依賴
-└── README.md              # 本文件
+├── CIFAR_100_CNN_Training.ipynb   # Colab Notebook
+├── train.py                        # 主訓練腳本
+├── README.md                       # 專案說明文件
+├── LICENSE                         # MIT 授權
+├── requirements.txt                # Python 依賴
+├── .gitignore                      # Git 忽略檔案
+├── training_curves.png             # 訓練視覺化
+└── checkpoints/                    
+    └── README.md                   # 模型下載說明
 ```
 
 ## 訓練配置
@@ -345,6 +332,18 @@ with torch.no_grad():
 - 啟用梯度累積
 - 使用混合精度訓練
 
+## 系統需求
+
+### 硬體
+- **GPU**：具有 4GB+ VRAM 的 NVIDIA GPU（在 Tesla T4 上測試）
+- **RAM**：最少 8GB
+- **儲存空間**：2GB 用於資料集和檢查點
+
+### 軟體
+- Python 3.8+
+- PyTorch 2.0+
+- CUDA 11.8+（用於 GPU 加速）
+
 ## 授權
 
 MIT License - 詳見 [LICENSE](LICENSE) 檔案
@@ -355,4 +354,13 @@ MIT License - 詳見 [LICENSE](LICENSE) 檔案
 **學生**：李泓斌  
 **學號**：C111110141  
 **Email**：[c111110141@nkust.edu.tw](mailto:c111110141@nkust.edu.tw)  
-如有問題或建議，請在 GitHub 上開啟 issue。
+**GitHub**：[@yuchen-0321](https://github.com/yuchen-0321)
+
+如有問題或建議，歡迎在 GitHub 上開啟 issue 或直接聯繫。
+
+---
+
+*本專案為計算智慧課程期末專案，感謝曾建誠教授的指導。*
+
+
+
