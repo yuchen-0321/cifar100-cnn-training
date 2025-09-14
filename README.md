@@ -7,7 +7,7 @@
 ![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/pytorch-2.0+-ee4c2c.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Accuracy](https://img.shields.io/badge/accuracy-78.38%25-brightgreen.svg)
+![Accuracy](https://img.shields.io/badge/accuracy-78.40%25-brightgreen.svg)
 
 **學生**：李泓斌
 **學號**：C111110141
