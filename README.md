@@ -47,6 +47,7 @@
 
 # 下載模型
 !gdown --id 1XZykFMfugoMCJKgaisC_4wnW5lV82-ZF -O checkpoints/cifar100_final_model.pth
+```
 
 ### 最終指標
 | 指標 | 數值 |
