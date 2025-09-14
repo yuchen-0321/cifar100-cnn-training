@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model checkpoints
+*.pth
+*.pt
+checkpoints/
+
+# Dataset
+data/
+cifar-100-python/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
