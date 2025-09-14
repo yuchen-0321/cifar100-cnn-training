@@ -364,17 +364,20 @@ MIT License - 詳見 [LICENSE](LICENSE) 檔案
 
 ## 聯絡方式
 
+
 **國立高雄科技大學電腦與通訊工程系**   
 **學生**：李泓斌  
-**學號**：C111110141 
-**Email**：[c111110141@nkust.edu.tw](mailto:c111110141@nkust.edu.tw)    
-**GitHub**：[@yuchen-0321](https://github.com/yuchen-0321)  
+**學號**：C111110141  
+**Email**：[c111110141@nkust.edu.tw](mailto:c111110141@nkust.edu.tw)  
+**GitHub**：[@yuchen-0321](https://github.com/yuchen-0321)
 
 如有問題或建議，歡迎在 GitHub 上開啟 issue 或直接聯繫。
 
 ---
 
 *本專案為計算智慧課程期末專案，感謝曾建誠教授的指導。*
+
+
 
 
 
